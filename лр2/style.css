@@ -1,0 +1,42 @@
+body{
+background-color: rgba(34, 30, 104, 0.812);
+}
+
+.no_way_home{
+color: rgb(255, 255, 255);
+
+}
+
+.final{
+color: rgb(20, 16, 16);
+
+}
+
+.happy{
+color: aqua;
+
+}
+@font-face{
+font-family: "font1";
+src: url(caviar-dreams.ttf);
+}
+@font-face{
+	font-family: "font2";
+	src: url(d9464-arkhip_font.ttf);
+	}
+	@font-face{
+		font-family: "font3";
+		src: url(impact2.ttf);
+		}
+
+		.href_movie{
+		color:#000;
+		text-decoration: none;
+		}
+
+		.image{
+		border: #000 solid 4px;
+		border-radius: 10px;
+		}
+
+		
