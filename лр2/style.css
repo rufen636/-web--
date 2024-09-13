@@ -1,20 +1,32 @@
 body{
-background-color: rgba(34, 30, 104, 0.812);
+background-color: #cdaa51;
 }
 
 .no_way_home{
 color: rgb(255, 255, 255);
 
+border: #000 solid 5px;
+background-color: #a6b6a9;
+border-radius: 10px;
+padding: 20px;
+
 }
 
 .final{
 color: rgb(20, 16, 16);
+border: #000 solid 5px;
+background-color: #a6b6a9;
+border-radius: 10px;
+padding: 20px;
 
 }
 
 .happy{
 color: aqua;
-
+border: #000 solid 5px;
+background-color: #a6b6a9;
+border-radius: 10px;
+padding: 20px;
 }
 @font-face{
 font-family: "font1";
