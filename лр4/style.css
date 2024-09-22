@@ -1,0 +1,29 @@
+html {
+	font-family: sans-serif;
+}
+
+body {
+margin: 0;
+}
+
+header {
+background: rgb(52, 206, 142);
+height: 100px;
+}
+
+h1 {
+text-align: center;
+color: white;
+line-height: 100px;
+margin: 0;
+}
+
+button {
+margin: 50px;
+font-size: 20px;
+background-color: red;
+}
+
+a {
+font-size: 20px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="style.css" rel="stylesheet" >
+</head>
+
+<body>
+<div style="margin-top: 5em"></div>
+<form>
+	<fieldset>
+			<legend> Правила форм </legend>
+			<label>
+					<input name="name">
+					<span>ФИО</span>
+			</label>
+			<label>
+				<input name="file" type="email">
+				<span>Адрес эл. почты</span>
+		 </label>
+			<label>
+					<input name="name" type="password">
+					<span> Пароль </span>
+			</label>
+			<label>
+					<input name="date_of_birth" type="date" max="2024-09-06">
+					<span>Дата рождения</span>
+			</label>
+	
+			<fieldset class="fs2">
+					<legend style="font-size: 15px">Пол</legend>
+					<div style="padding: 5px;display: flex;">
+							<input type="radio" id="man" name="gender" value="M"/>
+							<label for="man">Мужской</label><br/>
+
+							<input type="radio" id="woman" name="gender" value="W"/>
+							<label for="woman">Женский</label>
+					</div>
+			</fieldset>
+			<label>
+					<input name="file" type="file">
+					<span>Файл</span>
+			</label>
+			<label>
+					<input name="submit" type="submit" value="Подтвердить">
+					<span></span>
+			</label>
+		
+	</fieldset>
+</form>
+</body>
+</html>
+
