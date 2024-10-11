@@ -22,8 +22,90 @@ button {
 margin: 50px;
 font-size: 20px;
 background-color: red;
+animation: animate-button 1ms infinite;
 }
 
 a {
-font-size: 20px;
+  font-size: 20px;
+  margin-left: 2em;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+@keyframes animate-link{
+	from{
+	margin-left: 20px;
+	}
+	to{
+	margin-right: 20px;
+	}
+
+}
+
+.child-one:after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: green;
+  transition: .3s;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.child-one:hover{
+  color: green;
+}
+
+.child-one:hover:after {
+  width: 100%;
+}
+
+.child-one:hover {
+  animation-name: animate-link;
+	animation-duration: 5s;
+}
+
+button:hover{
+  background-color: #4CAF50;
+  animation: none;
+}
+
+.ball {
+	height: 70px;
+  width: 70px;
+  background-color: #2d2d2d;
+  border-radius: 100%;
+  margin-left: 2em;
+  animation: bounce 5s linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0px);height: 70px;width: 70px; animation-timing-function:ease-in}
+  39.5% { transform: translateY(600px);height: 60px;width: 70px }
+  40% { transform: translateY(600px);height: 35px;width: 80px }
+  41% { transform: translateY(600px);height: 60px;width: 70px; animation-timing-function: ease-out }
+  59.5% { transform: translateY(200px);height: 70px;width: 70px}
+  60% { transform: translateY(200px);height: 70px;width: 70px; animation-timing-function: ease-in}
+  79% { transform: translateY(600px);height: 60px;width: 70px }
+  80% { transform: translateY(600px);height: 50px;width: 74px }
+  81% { transform: translateY(600px);height: 60px;width: 70px; animation-timing-function: ease-out }
+  90% { transform: translateY(400px);height: 70px;width: 70px }
+  91% { transform: translateY(400px);height: 70px;width: 70px; animation-timing-function: ease-in }
+  97% { transform: translateY(590px);height: 66px;width: 70px }
+  99% { transform: translateY(600px);height: 65px;width: 71px }
+  100% { transform: translateY(600px);height: 70px;width: 70px }
+}
+
+@keyframes animate-button{
+  0% { transform: translateX(0) }
+  25% { transform: translateX(2px) }
+  50% { transform: translateX(0px) }
+  75% { transform: translateX(-2px) }
+  100% { transform: translateX(0) }
+
 }
