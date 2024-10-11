@@ -80,8 +80,8 @@ button:hover{
   background-color: #2d2d2d;
   border-radius: 100%;
   margin-left: 2em;
-  animation: bounce 5s linear;
-	animation-iteration-count: infinite;
+  animation: bounce 5s;
+	/* animation-iteration-count: infinite; */
 }
 
 @keyframes bounce {

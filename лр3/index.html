@@ -9,7 +9,8 @@
 
 <body>
 <div style="margin-top: 5em"></div>
-<form>
+<form method="post" action=" ">
+	
 	<fieldset>
 			<legend> Правила форм </legend>
 			<label>
@@ -43,6 +44,10 @@
 					<input name="file" type="file">
 					<span>Файл</span>
 			</label>
+			<label>
+				<input name="tel" type="tel" pattern="[0-9]{12}">
+				<span>Номер телефона</span>
+		</label>
 			<label>
 					<input name="submit" type="submit" value="Подтвердить">
 					<span></span>
