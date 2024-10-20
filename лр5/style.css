@@ -1,25 +1,52 @@
 html {
-    font-family: sans-serif;
-  }
+	font-family: sans-serif;
+}
 
-  body {
-    margin: 0;
-  }
+body {
+	margin: 0;
+}
 
-  header {
-    background: rgb(52, 206, 142);
-    height: 100px;
-  }
+header {
+	background: rgb(52, 206, 142);
+	height: 100px;
+}
 
-  h1 {
-    text-align: center;
-    color: white;
-    line-height: 100px;
-    margin: 0;
-  }
+h1 {
+	text-align: center;
+	color: white;
+	line-height: 100px;
+	margin: 0;
+}
+#fl1{
+	display: flex;
+	flex-direction: row;
+}
+#fl2{
+	display: flex;
+	flex-direction: row-reverse;
+}
+#fl3{
+	display: flex;
+	flex-direction: column-reverse;
+}
+#fl4{
+	display: flex;
+	flex-direction: column;
+}
+#fl5{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+#fl6{
+	height: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+}
 
-  article {
-    padding: 10px;
-    margin: 10px;
-    background: rgba(16, 233, 215, 0.178);
-  }
+article {
+	padding: 10px;
+	margin: 10px;
+	background: rgba(16, 233, 215, 0.178);
+}
+

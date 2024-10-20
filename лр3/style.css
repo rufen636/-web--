@@ -7,7 +7,12 @@ body{
 	background-color: rgb(76, 76, 76);
 	color: aliceblue;
 }
-
+input:not([type = radio]) {
+	border-radius: 5px;
+	border-color: #2d2d2d;
+	border-width: 1px;
+	height: 24px;
+}
 
 legend {
 	font-size: larger;
@@ -19,7 +24,11 @@ label {
 	margin-top: 10px;
 }
 
-
+label > span {
+	transition: all .2s;
+	transform-origin: top left;
+	font-size: 15px;
+}
 
 .fs2 {
 	border: none;
@@ -28,7 +37,10 @@ label {
 	margin-left: 0;
 }
 
-
+input ~ label {
+	margin-top: 0;
+	margin-right: 2em;
+}
 
 button {
 	background-color: #2d2d2d;
