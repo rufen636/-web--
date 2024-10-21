@@ -33,9 +33,10 @@ article {
 			justify-content: space-around;
 	}
 	.adaptive > article:nth-child(n+4) {
-			width: 46%;
+			width: 100%;
 	}
 }
+
 
 
 @media (min-width: 1400px){

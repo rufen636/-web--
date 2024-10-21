@@ -13,14 +13,25 @@ body {
 .grid>article:nth-child(1) {
 	grid-row: 1/4;
 }
+.grid>article:nth-child(7){
 
+	grid-area:2/3/2/3;
+}
 .grid>article:nth-child(3) {
 	grid-area: 1/3/3/5;
 }
 
+
+
 .grid>article:nth-child(9) {
 	grid-column: 2/4;
 }
+.grid>article:nth-child(4){
+
+	grid-area: 3/4/4/5;
+}
+
+
 
 
 header {
